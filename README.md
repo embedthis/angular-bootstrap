@@ -10,4 +10,4 @@ pak install angular-bootstrap
 
 ### Get Pak from
 
-    [https://github.com/embedthis/pak](https://github.com/embedthis/pak)
+[https://github.com/embedthis/pak](https://github.com/embedthis/pak)
