@@ -11,7 +11,10 @@ Third Party Licenses
 
 The Software contains licensed third party software under the agreements that follow.
 
-Angular-ui-bootstrap - [MIT](http://opensource.org/licenses/MIT)
+Angular-ui
+---
+
+[Angular-ui-bootstrap](http://angular-ui.github.io) - [MIT](http://opensource.org/licenses/MIT)
 
 Trademarks and Copyrights
 ---
