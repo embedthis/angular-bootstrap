@@ -2,26 +2,16 @@
     "name": "angular-bootstrap",
     "description": "Angular UI Bootstrap support",
     "version": "0.7.0",
+    "pak": ">=0.10",
     "keywords": [
-        "esp",
+        "esp"
     ],
     "dependencies": {
         "angular": ">=1.2.0", 
         "bootstrap": ">=3.0.0", 
-        "html5shiv": "*",
+        "html5shiv": "*"
     },
     "export": [
-        {
-            from: "*.js",
-            to: '${LIB}/angular-bootstrap',
-            overwrite: true,
-        }
-    ],
-    "app": {
-        "client": {
-            "+scripts": [ 
-                "${LIB}/angular-bootstrap/*.js" 
-            ]
-        }
-    }
+        { "from": "*.js",   "to": "angular-bootstrap/", "type": "js" }
+    ]
 }
