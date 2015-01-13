@@ -12,6 +12,9 @@
         "html5shiv": "*"
     },
     "export": [
-        { "from": "*.js",   "to": "angular-bootstrap/", "type": "js" }
-    ]
+        { "from": "*.js", "to": "angular-bootstrap/" }
+    ],
+    "render": {
+        "js": "*.js"
+    }
 }
