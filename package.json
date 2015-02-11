@@ -2,19 +2,23 @@
     "name": "angular-bootstrap",
     "description": "Angular UI Bootstrap support",
     "version": "0.7.0",
-    "pak": ">=0.10",
     "keywords": [
         "esp"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/embedthis/angular-bootstrap.git"
+    },
     "dependencies": {
         "angular": ">=1.2.0", 
         "bootstrap": ">=3.0.0", 
         "html5shiv": "*"
     },
-    "export": [
-        { "from": "*.js", "to": "angular-bootstrap/" }
-    ],
-    "render": {
-        "js": "*.js"
+    "pak": {
+        "export": "*.js",
+        "render": {
+            "js": "*.js"
+        },
+        "version": ">=0.10.0"
     }
 }
