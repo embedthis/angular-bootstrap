@@ -16,9 +16,6 @@
     },
     "pak": {
         "export": "*.js",
-        "render": {
-            "js": "*.js"
-        },
         "version": ">=0.10.0"
     }
 }
