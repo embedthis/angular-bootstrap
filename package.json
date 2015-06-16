@@ -14,8 +14,10 @@
         "bootstrap": "^3.3", 
         "html5shiv": "^3.7"
     },
+    "devDependencies": {
+        "pak": ">=0.11.0"
+    },
     "pak": {
-        "export": "*.js",
-        "version": ">=0.10.0"
+        "export": "*.js"
     }
 }
