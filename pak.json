@@ -18,7 +18,5 @@
     "devDependencies": {
         "pak": ">=0.11.0"
     },
-    "pak": {
-        "export": "*.js"
-    }
+    "export": "*.js"
 }
